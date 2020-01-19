@@ -74,7 +74,7 @@ function YesFunction(){
 		//open platic bin
 		plastic1.counter += 1; 
 		plastic1.getBinStatus(); 
-		
+		Reset();
 	}
 };
 
@@ -89,7 +89,7 @@ function NoFunction(){
 		//open landfill bin
 		land1.counter += 1; 
 		land1.getBinStatus(); 
-		setTimeout(Reset(), 4000);
+		Reset();
 	}
 };
 
